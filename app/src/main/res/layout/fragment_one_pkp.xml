@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.primestska_krajina_prahy.oneFragment_pkp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Zaniklá krajina intenzivního zemědělství na jihovýchodním okraji Prahy"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Příměstská krajina na jihovýchodním okraji Prahy slouží v Česku jako nejmarkantnější případ rychlé až překotné, zřejmě neplánované a živelné suburbanizace v bezprostředním zázemí velkoměsta. Původním typem kulturní krajiny, která zde převládala ještě v 80. letech 20. století, byla intenzivně využívaná zemědělská krajina s naprostou převahou orné půdy, využívající úrodnou půdu na rovinatém povrchu Pražské plošiny. V 50.-60. letech 20. století zde došlo jako všude jinde na území České republiky ke kolektivizaci, scelení zemědělských pozemků do velkých půdních bloků a zčásti také k vysídlení největších sedláků (v tehdejší terminologii převzaté podle sovětského vzoru „kulaků“), krajina si však až do 80. let 20. století udržela svůj zemědělský charakter. Přispěl k tomu i poměrně přísný zákon na ochranu zemědělské půdy. Zemědělské vesnice v modelovém území v těsném zázemí Prahy byly zanedbané (např. Pitkovice, Benice, Lipany, Čestlice, Nupaky, Dobřejovice, Osnice, Zdiměřice) a připomínaly „vnitřní středočeské pohraničí“.\n\n
+
+V údolích potoků, nevhodných pro zemědělskou velkovýrobu (Botič, Pitkovický potok) se nacházely plochy opuštěné půdy zarůstající novou divočinou. Výjimkou byly Průhonice s rozsáhlým a cenným krajinářským parkem v údolí Botiče, které již tehdy byly vyhledávanou destinací s rezidenční funkcí. Situace se začala měnit v 80. letech po vybudování dálnice D1 a zejména po roce 1990, kdy se otevřela stavidla až bezbřehé rezidenční i komerční suburbanizace. Téměř souvislý pás po obou stranách dálnice D1 táhnoucí se dnes až do vzdálenosti 20 km od Prahy zaujaly rozlehlé stavební objekty komerční suburbanizace (velkosklady, logistická střediska, obchodní centra), zatímco rezidenční suburbanizace, výstavba nových sídelních celků, se soustředila na okraje existujících, do té doby převážně malých zemědělských vesnic. V řadě případů vznikly nové celky určené k rezidenčnímu bydlení i ve volné zemědělské krajině bez vazby na stávající sídelní strukturu. Krajina tak doznala pronikavou změnu, která se týká vzhledu, struktury, využití i funkce. Z někdejší zemědělské krajiny s vesnickými sídly vznikla v krátké době příměstská suburbanizovaná krajina. "/>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

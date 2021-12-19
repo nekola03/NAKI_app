@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.references.referenceFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:src="@drawable/obr_naki" />
+
+        <TextView
+            android:id="@+id/odkaz_1"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="100dp"
+            android:text="WWW.ZANIKLEKRAJINY.CZ"
+            android:textAlignment="center"
+            android:textColor="@color/head2"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/odkaz_2"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="100dp"
+            android:text="WWW.ZANIKLEKRAJINY.CZ/ATLAS"
+            android:textAlignment="center"
+            android:textColor="@color/head2"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:src="@drawable/charles_university"
+            android:layout_marginTop="110dp"/>
+
+            <TextView
+                android:id="@+id/odkaz_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:text="WWW.NATUR.CUNI.CZ"
+                android:textAlignment="center"
+                android:textColor="@color/head2"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

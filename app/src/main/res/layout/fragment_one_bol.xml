@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.boletice.oneFragment_bol">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Zaniklá venkovská (lesně zemědělská) krajina vojenského výcvikového prostoru Boletice"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Vojenský výcvikový prostor (VVP) Boletice vznikl v roce 1947 jako nástupce vojenského výcvikového tábora Boletice. Vojenský újezd Boletice pak vznikl v roce 1950 jako zvlášť vyčleněné území pro potřeby obrany státu na ploše bezmála 220 km2 v oblasti Šumavské hornatiny a Šumavského podhůří na okrese Český Krumlov. Území je unikátní svou minimální hustotou zalidnění pouze 1,2 obyvatel na km2. Češi, kteří zde před válkou tvořili pouze 1% obyvatelstva, byli vysídleni po německém záboru českých pohraničních území v roce 1938. Německé etnikum bylo vysídleno po druhé světové válce v roce 1945. Většina dnešních obyvatel byla dosídlena později. Ve vojenském újezdu hospodaří státní podnik Vojenské lesy a statky ČR, divize Horní Planá. \n\n
+Původní krajina s převahou lesů a horského zemědělství se změnila v současnou krajinu, jejíž struktura je podřízena výcviku jednotek pozemních sil ve střelecké a taktické přípravě, v řízení vozidel a překonávání vodní překážky. Významným fenoménem území jsou stanoviště bezlesí na plochách, které byly dříve zemědělsky využívány. Nyní jsou plochy bezlesí v různém stupni sekundární sukcese udržovány vojenskou činností, která se projevuje mechanickým narušováním vegetace a povrchu půdy."/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

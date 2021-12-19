@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.cerna_v_posumavi.oneFragment_cvp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Česká Kanada – Staré Město pod Landštejnem, Veclov, Návary, Rajchéřov, Košťálkov"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Modelové území jižní části tzv. České Kanady jižně od Starého Města pod Landštejnem při hranicích s Rakouskem, katastrální území Veclov, Návary, Rajchéřov a Košťálkov, je podobně jako Šumava příkladem zaniklé kulturní krajiny v pohraničí. Také zde došlo po 2. světové válce k vysídlení převládajícího německého obyvatelstva a po roce 1948 zde padla tzv. „železná opona“.\n\n
+
+Do roku 1945 to byla venkovská kulturní krajina s pravidelným osídlením a běžným hospodářským využíváním, s funkcí zemědělskou a lesnickou. V letech 1945-1946 byl v několika etapách zorganizován odsun německého obyvatelstva, současně docházelo i k živelným útěkům za hranice. Ve stejné době přicházeli do území novousedlíci české národnosti, kteří obsazovali opuštěné domy po Němcích. Významnou část mezi nimi zaujímali volyňští Češi a Češi z Rumunska. Mnozí novousedlíci však přidělené domy hospodářství zase brzy opustili. Nepodařilo se tak znovu osídlit obec Rajchéřov, odkud v roce 1946 odešla velká skupina nových majitelů poté, co se rozšířila zvěst, že okolí obce bude zalesněné z důvodu blízkosti státní hranice. O několik let později byla ves skutečně zlikvidována při budování tzv. železné opony. Podobně zanikla a byla srovnána se zemí také vesnice Košťálkov, která se stejně jako Rajchéřov nacházela příliš blízko u státní hranice s Rakouskem a po roce 1948 se stala součástí nepřístupného pohraničního pásma. Naopak alespoň částečně zůstaly zachované dnes malé vesničky Veclov a Návary, které se nacházely těsně před nepřístupným pohraničním pásmem. Ve Veclově žije dnes asi 9 trvale bydlících obyvatel, v Návarech nebyl dokonce ani jediný trvale bydlící. Zachovalé domy jsou ale vesměs citlivě opravené a slouží jako rekreační chalupy. V Návarech vznikl penzion s chovem koní, který nabízí ubytování a projížďky na koních. \n\n
+
+Rekreační využití, byť zatím jenom velmi mírné, charakterizuje posun a změnu krajinných funkcí. Z produkční krajiny zemědělsko-lesnické se krajina změnila směrem k převládající rekreační funkci. Intenzita hospodářského vyžívání krajiny se snížila. Lesnictví, těžba dřeva a pěstování lesa, a zemědělství jsou tu stále přítomny, ale zemědělství je velmi extenzivní. Pouze v severní části území od Starého Města zasahují rozsáhlá kolektivizovaná pole, na zbývající větší části území orná půda zanikla. Bývalá pole byla zatravněna nebo i zalesněna. Celkově se zde zvýšila výměra lesa. Zemědělská půda je využívaná extenzivně jako pastviny nebo louky. \n\n
+
+V Rajchéřově se po roce 1990 objevil záměr zahraničního investora z Nizozemí vybudovat zde obří rekreační středisko pro zahraniční klientelu s kapacitou až několik tisíc osob, tento záměr se však neuskutečnil z důvodu kolize s ochranou přírody. Volná krajina umožňuje však například konání závodů psích spřežení, šetrnou pěší a cykloturistiku. V roce 2006 byl v místě bývalého Košťálkova obnoven přechod do Rakouska, vznikl zde málo frekventovaný hraniční přechod Košťálkov – Kleintaxen."/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

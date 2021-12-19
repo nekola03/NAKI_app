@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.uvod.uvod">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ZMIZELÉ KRAJINY ČESKA"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:textColor="#1c9413"
+        android:textStyle="bold"
+        android:textSize="26dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="45dp"
+        android:gravity="center_horizontal"
+        android:text="@string/uvod1"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/mapa_zaklad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dp"
+        android:src="@drawable/mapa_jadra_nova"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@null"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginRight="14dp"
+        android:gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="@string/uvod2" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <Button
+            android:id="@+id/odkaz"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginStart="284dp"
+            android:layout_marginBottom="420dp"
+            android:background="@color/white"
+            android:rotation="30"
+            android:text="Klikni na mapu"
+            android:textSize="8dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.kladensko.oneFragment_klad">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Kladensko - Hnidousy, Dubí u Kladna"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Kladno představuje typický příklad industriální a postindustriální krajiny v kombinaci s montánní a postmontánní krajinou, v níž došlo k ukončení těžby černého uhlí a která byla poté postižena i útlumem těžkého průmyslu. Původně středověká ves Kladno, písemně poprvé doložená na počátku 14. století, byla v roce 1561 povýšena na městys. Krajina měla až do konce 18. století typicky zemědělský charakter, hospodařily zde dva vrchnostenské dvory a její součástí byla pro tehdejší dobu příznačná bohatá síť rybníků.\n\n
+
+Koncem 18. století byly objeveny a těžbou otevřeny první uhelné sloje, od počátku 19. století se rychle rozvíjela těžba. Přispěla k tomu i koněspřežná dráha z Prahy do Lán, po níž se dopravovalo kladenské uhlí do Prahy. Zlomové období a největší rozmach těžby uhlí nastal v polovině 19. století. V roce 1846 byla objevena hlavní kladenská uhelná sloj, další objevy následovaly po roce 1850. V roce 1854 vznikly kladenské železárny, které se staly nejvýznamnějším průmyslovým komplexem 19. století v celých Čechách. Kladno bylo v té době nazýváno Českou Kalifornií nebo též Českým Manchesterem. To mělo dalekosáhlý vliv na přeměnu do té doby rurální zemědělské krajiny. Na rozvoj těžby uhlí a příliv pracovních sil navazovalo zakládání dělnických a hornických kolonií v blízkosti šachet. Samotné město Kladno (povýšeno na město v roce 1870) bylo obklopeno těžebními podniky a koloniemi, např. v Hnidousech při dolu Ronna, na Čabárně, v Pcherách při dolu Theodor, další kolonie vznikly v Dubí, na Dříni, v Buštěhradu. Severně od města (Hnidousy) vznikly rozsáhlé haldy hlušiny.\n\n
+
+S vyčerpáním některých důležitých dolů a útlumem těžby na konci 19. století se hlavní ekonomickou silou Kladna staly železárny. Soustava dolů prořídla, naopak se rozšířily industriální areály. V Kladně i jeho částech (Dubí, Hnidousy – dnes Švermov) se výrazně zvýšil počet obyvatel.\n\n
+
+Tento růst a průmyslový rozmach Kladna, přerušovaný v období krizí, pokračoval i ve 20. století. V období socialismu byl zprvu podporován těžký průmysl. Zatímco těžba uhlí byla po vyčerpání zdrojů utlumena, Kladno zůstalo ocelovým srdcem Čech. Vznikly zde na tehdejší dobu moderní hutnické a slévárenské provozy (ocelárna Dříň). Po roce 1990 dochází k dramatickému útlumu hutnické výroby a opuštění řady kladenských výrobních areálů. Na Kladně vzniká typická postindustriální krajina s množstvím opuštěných továrních hal, typických brownfieldů, zarůstajících manipulačních ploch, opuštěných slepých asfaltových a panelových komunikací apod. Na opuštěných dvorech a plochách se šíří ruderální vegetace, v níž dominuje invazní zlatobýl obrovský, původem z Kanady."/>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.stredni_povltavi.oneFragment_sp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Střední Povltaví – zaniklá krajina hlubokého vltavského údolí"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Střední Povltaví v dlouhém úseku řeky Vltavy přibližně od Týna nad Vltavou po Slapy reprezentuje v podmínkách Česka i celé střední Evropy unikátní fenomén úzkého zaříznutého údolí poměrně velké řeky, které po roce 1950 nevratně zmizelo pod hladinou dvou velkých přehradních nádrží Orlík a Slapy. S ním zanikl nejen svérázný typ říční krajiny, ale i ekonomická činnost a život lidí s řekou po staletí spojených jako jsou voraři, mlynáři, rybáři, vorařské hospody atd.\n\n
+Po vybudování vodních děl na Vltavě (vltavské přehradní kaskády) v období budování socialismu v 50. a 60. letech 20. století (Slapy roku 1954) vznikl nový, vodohospodářský typ krajiny s jiným využitím. Říční krajina ztratila původní funkci a krajinný ráz, získala však novou atraktivitu spojenou s rekreačním využitím velkých vodních ploch. V jádrovém území Slapské přehrady byly postupně vybudovány rekreační areály, největší na Živohošti, a krajina získala významnou novou rekreační funkci.\n\n
+Širší modelové území na obou březích střední Vltavy nese některé rysy vnitrozemské středočeské periferie, třebaže není příliš vzdálené od Prahy. Platí to zejména pro Neveklovsko, které bylo postiženo již po okupaci českých zemí v roce 1939, kdy zde německá okupační armáda zřídila rozsáhlé vojenské cvičiště, což bylo spojené s odsunem obyvatelstva."/>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

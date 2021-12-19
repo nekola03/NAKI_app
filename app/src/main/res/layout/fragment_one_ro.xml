@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.rosicko_oslavansko.oneFragment_ro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Zaniklá a zanikající hornická a postindustriální krajina Rosicka - Oslavanska"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Postindustriální krajina Rosicka-Oslavanska je příkladem původně zemědělské krajiny přetvořené a posléze opuštěné průmyslem opírajícím se o hlavní energetický zdroj, jímž bylo černé uhlí. Navazujícím odvětvím byla kovovýroba, využívající rovněž místní zdroje železné rudy. Území prodělalo za posledních 250 let několik fází industrializace, ale také úpadku místního průmyslu. Již před začátkem těžby uhlí bylo území úrodné Oslavanské brázdy odlesněné a zemědělsky využívané.\n\n
+
+Radikální změny ve využití zemědělské krajiny nastaly po objevení ložisek uhlí koncem 18. století a zejména v 19. století. V 19. století vzniklo v území 8 skupin významných hlubinných dolů (těžních jam bylo více) v Padochově, Zastávce, Babicích, Oslavanech a zejména Zbýšově. V Zastávce a Oslavanech se rozvinulo železářství a hutnictví. Hornické a průmyslové využití území si vyžádaly dalekosáhlé změny v krajině: vznikly dělnické kolonie na úkor zemědělské půdy, ubyly travní porosty, zanikly veškeré rybníky a všechny vodoteče byly upraveny, aby se voda nevsakovala do dolů. Území bylo dopravně propojeno s rozvíjející se brněnskou aglomerací. Těžba uhlí kulminovala v 1. polovině 20. století, od 60. let nastává útlum těžby a v 80. letech 20. století byla těžba ukončena. Došlo také k ukončení činnosti železářských provozů a zániku cukrovarů v Rosicích a Oslavanech. Od počátku 90. let jsou těžební a průmyslové objekty převážně opuštěné a chátrají. Těžební jámy jednotlivých dolů jsou již zasypány. Prostor mezi Babicemi a Zastávkou je klasickou ukázkou brownfields s opuštěnými budovami průmyslových a těžebních objektů, zarůstajícími i roztěženými haldami hlušiny. Některé části dolů a hald byly revitalizovány, případně našly náhradní využití (typické pro dnešní dobu) jako prostor pro fotovoltaickou energetiku a zábavní park. Úseky průmyslových a důlních železničních tratí byly většinou již demontovány.\n\n
+
+V modelovém území Rosicka-Oslavanska se dosud nachází řada důlních a průmyslových objektů, které lze označit jako reprezentativní ukázky z doby svého vzniku a jako takové tvoří součást industriálního dědictví. V současné době krajina opět získala významnější produkční zemědělskou funkci, především však funkci sídelní s ohledem na blízkost Brna a možnost dojíždění do moravské metropole. Z vizuálního hlediska došlo k posílení venkovského vzhledu otevřené krajiny mimo sídla (odstraněním železničních vleček, nákladní lanovky, energovodů, továrních komínů a překrytím hald hlušiny a popílku i dalších objektů stromovou a keřovou vegetací). Postindustriální objekty průmyslového dědictví se nacházejí především v sídlech, ve volné krajině je postindustriální krajina reprezentována pouze antropogenními tvary reliéfu."/>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

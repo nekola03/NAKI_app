@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.kacina.oneFragment_kac">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Částečně zaniklá komponovaná feudální krajina Kačina"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="V okolí zámku Kačina, zejména v katastrálních územích Nové Dvory a Svatý Mikuláš s přesahem do dalších katastrů, vznikla v minulosti feudální komponovaná krajina. Krajinářské úpravy na novodvorském panství vycházely již od konce 17. století od sídla panství na zámku v Nových Dvorech. Krajina panství byla postupně cílevědomě esteticky utvářená sítí cest lemovaných alejemi, vodními prvky a drobnými stavbami. Velkorysé krajinářské kompozice vyvrcholily stavbou velkolepého empírového zámku Kačina a okolní rozsáhlou parkovou úpravou na počátku 19. století.\n\n
+
+Feudální komponovaná krajina se začala postupně měnit a upadat od 2. poloviny 19. století. Hlavní změny nastaly ve 2. polovině 20. století v souvislosti se socialistickou kolektivizací a intenzifikací zemědělství, které přineslo likvidaci některých starých cest, rozbití a zvětšení původních půdních bloků a výstavbu esteticky nevhodných objektů zemědělské velkovýroby, které negativně ovlivnily krajinný ráz historické krajiny. Řada prvků komponované krajiny tak zanikla nebo přestala být dominantní a viditelná ve vzhledu krajiny. Týká se to i zarůstání a zanikající kompozice parku a obory kolem zámku Kačina. V letech 2011-2013 byla proto provedena rozsáhlá regenerace kačinské obory, jejímž cílem bylo vrátit komponovanou krajinu kolem zámku do podoby, jakou měla před polovinou 19. století.\n\n
+
+Regenerace se však nemohla dotknout širšího území mimo kačinskou oboru, které má ráz intenzivně využívané zemědělské krajiny. Dochované stopy feudálních krajinářských úprav a zvýšená estetická krajinářská hodnota celého území vedly k jeho vyhlášení jako krajinná památková zóna. Samotná kačinská obora a park byly vzhledem ke svým přírodním hodnotám vyhlášeny jako přírodní památka, evropsky významná lokalita soustavy NATURA 2000 a genofondová základna čtyř druhů původních lesních dřevin (olše, lípa, jasan, dub)."/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

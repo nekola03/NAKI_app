@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.jachymovsko.oneFragment_jach">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Jáchymovsko"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Jáchymov zaznamenal ohromný rozmach v 16. století v souvislosti s těžbou bohatých ložisek stříbra. V roce 1535 byl s 18 000 obyvateli druhým nejlidnatějším městem Čech po Praze. Těžba stříbra, později již méně významná, trvala do 19. století, kdy se k němu přidala těžba uranu, radia a bismutu. Za objev radia v jáchymovské uranové rudě získala Marie Curie-Skłodowská Nobelovu cenu. Těžba uranové rudy probíhala v Jáchymově a jeho okolí hlavně v letech 1939-1962, kdy na jaderné projekty nacistů navázal komunistický režim. Vytěžená uranová ruda se odvážela do Sovětského svazu. Za druhé světové války zřídila nacistická správa při uranových dolech v prostoru Jáchymova pracovní zajatecké tábory, v nichž byli drženi francouzští a sovětští váleční zajatci. V letech 1945-1950 v nich naopak pobývali němečtí váleční zajatci. Od roku 1950 byly přeměněny na tábory nucené práce, v nichž byli drženi vězni (zejména političtí) jako nesvobodná levná pracovní síla. V roce 1953 bylo na Jáchymovsku v celkem patnácti táborech vězněno 12 000 politických vězňů.\n\n
+
+Podobně jako Jáchymov také Abertamy a Hřebečná vznikly jako hornické osady v 16. století na ložiskách stříbra a cínu. Důl Mauritius nad Hřebečnou byl nejslavnějším cínovým dolem Krušných hor, cínová ruda se v něm těžila po 400 let v letech 1545-1944. Po odsunu německého obyvatelstva po 2. světové válce nebyla horská krajina nad Jáchymovem pro malý zájem a drsné podmínky dostatečně dosídlena a menší obce (Ryžovna, Myslivny, Arnoldov) zcela zanikly. Jejich domy včetně kostela, kaple či hřbitova byly srovnány se zemí. Skončilo také horské zemědělství, které se tu provozovalo až do výšky 1000 m nad mořem. Větší sídla jako Abertamy nebo Hřebečná sice zůstaly stát, ale zažívaly urbanistický i populační úpadek. Dodnes je v nich řada opuštěných chátrajících domů.\n\n
+
+Současná horská krajina nad Jáchymovem ztratila svou významnou produkční funkci, hornickou i zemědělskou. Zvýšil se podíl lesních porostů, orná půda prakticky zanikla, na rozsáhlých planinách nad Abertamy a Hřebečnou se rozkládají extenzivně využívané pastviny. Bývalá prvořadá produkční funkce krajiny byla postupně nahrazena funkcí rekreační, sportovní a turistickou. V areálu bývalého dolu Eduard nad Jáchymovem se dnes nacházejí tratě a střelnice na biatlon. V okolí Jáchymova a Abertam je několik lyžařských vleků a sjezdovek a sedačková lanovka na Klínovec. Přes Abertamy a Hřebečnou prochází hlavní Krušnohorská běžecká magistrála. Přes rozvoj turistiky a rekreace, a to i přeshraniční, si však území i 75 let po válce ponechává rysy zanedbaného sudetského pohraničí."/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.podboransko.oneFragment_pod">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Zaniklá krajina intenzivního zemědělství v chmelařské oblasti Podbořanska"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="V krajině ležící v periferní oblasti širšího západočeského pohraničí sledujeme proměny a částečné zanikání dříve intenzivně využívané zemědělské krajiny. Specifickým rysem zdejší oblasti je pěstování chmele a ovocnářství. Chmelnice i ovocné sady byly v minulosti mnohem rozšířenější než dnes. Území bylo součástí Sudet, po Mnichovu 1938 bylo připojené k Německé říši, po roce 1945 bylo odtud odsunuté německé obyvatelstvo.\n\n
+
+Periferní rysy tohoto území a jeho nedávná historie (odsun německého obyvatelstva) se dobře odrážejí ve vzhledu sídel. Je na nich patrná odlišná architektura obytných budov (statků) i hospodářských budov, množství zpustlých nebo rozpadajících se objektů v sídlech i v krajině, opuštěné a rozpadající se německé hroby. Charakteristickým rysem krajinného rázu jsou dosud konstrukce chmelnic a vysoké budovy sušáren chmele, z nichž mnohé jsou ovšem opuštěné a rozpadají se.\n\n
+
+Postupný zánik intenzivně využívané zemědělské krajiny se datuje do 2. poloviny 20. století. Využívání krajiny je nyní výrazně polarizované v závislosti na členitosti reliéfu. Na rovinách především v západní části jádrového území (západně od obcí Blšany a Siřem směrem na Podbořany) se rozkládají jednotvárné lány orné půdy. V členitém reliéfu povodí Černockého potoka východně od Blšan na svažitých pozemcích došlo k opuštění zemědělského obdělávání a částečnému zalesnění. Zanikly některé ovocné sady a na jejich místech na svazích stejně jako v erozních stržích se rozšířily křovinaté porosty nové divočiny. Některé svažité pozemky v údolí a v povodí Černockého potoka byly zatravněny a jsou v současnosti využité jako pastviny ovcí a skotu. Pastva zvířat je charakteristickým rysem extenzifikace využívání krajiny. Přispívá k její ekologické stabilizaci a mění krajinný ráz."/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

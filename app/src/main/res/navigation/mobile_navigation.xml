@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_first_page">
+
+    <fragment
+        android:id="@+id/nav_first_page"
+        android:name="com.example.digitalni_atlas.ui.uvod.uvod"
+        android:label="@string/menu_first_page"
+        tools:layout="@layout/fragment_uvod" />
+
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.digitalni_atlas.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/about_fragment" />
+
+    <fragment
+        android:id="@+id/nav_reference"
+        android:name="com.example.digitalni_atlas.ui.references.referenceFragment"
+        android:label="Odkazy"
+        tools:layout="@layout/fragment_reference" />
+
+</navigation>

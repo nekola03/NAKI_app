@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_first_page"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="@string/menu_first_page" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_baseline_map"
+            android:title="@string/menu_map" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_baseline_list"
+            android:title="@string/menu_list" />
+
+
+    <item android:title="Informace">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_baseline_info"
+                android:title="@string/menu_about"
+                android:checkableBehavior="single"/>
+            <item
+                android:id="@+id/nav_reference"
+                android:title="Odkazy"
+                android:icon="@drawable/ic_baseline_link_24"
+                android:checkableBehavior="single"/>
+
+        </menu>
+    </item>
+    <item android:title="Komunikace" android:checkableBehavior="single">
+        <menu
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:showIn="navigation_view">
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share"
+                android:title="@string/menu_share"
+                android:checkableBehavior="single"/>
+        </menu>
+    </item>
+</menu>

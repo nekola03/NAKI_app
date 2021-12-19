@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.krkonose.oneFragment_krk">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Zaniklá krajina horského zemědělství v Krkonoších"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Krkonoše byly v minulých staletích tradiční oblastí horského zemědělství. Z našich pohoří měly vždy nejméně orné půdy, což souvisí s velkým rozšířením pastevectví, racionálním lesním hospodářstvím, s rozvojem průmyslu v údolních sídlech a také s brzkým začátkem cestovního ruchu, který zde dosáhl největší intenzity (Häufler, 1955). Právě území Horní Rokytnice a Dolní Rokytnice však patří k oblastem tradičního horského zemědělství i s významným podílem orné půdy v minulosti. Vyšší horské polohy včetně Pohraničního hřbetu nad horní hranicí lesa byly využité postupně již od 16. století pro sezónní horské pastevectví, které zde představovalo obdobu alpského pastevectví, přizpůsobeného místním poměrům. Zkušenosti s horskou pastvou sem přinesli kolonisté z alpských zemí, kteří sem byli přivoláni jako dřevaři. Pastevectví rozvinuli na vymýcených plochách, pásl se hlavně skot. Od 17. století, většinou však v 18. století vznikaly letní horské boudy (např. Dvoračky, Martinova bouda, boudy v Rokytnu a mnoho dalších). Nejvíce jich vzniklo v nadmořské výšce 1000-1300 m. Na letních boudách se nejen pásli, ale také se sklízelo seno.\n\n
+Úpadek a posléze zánik horského pastevectví nastává v polovině 19. století v souvislosti s postupným zakazováním pastvy v lese (1866) a zákazem pastvy nad horní hranicí lesa (1897). Koncem 19. století bylo rozhodnuto o vysazování kosodřeviny, aby se zabránilo padání lavin. Déle než výpas se udržovalo občasné kosení a sklizeň sena, běžné ještě za 1. republiky. Horské boudy se přeměnily na rekreační chaty pro letní i zimní rekreaci a turistiku, řada jich také zanikla. K úplnému ukončení zemědělského využívání Krkonoš přispěl odsun původního německého obyvatelstva hned po 2. světové válce (1945-1946), dále vyhlášení Krkonošského národního parku (1963)."/>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

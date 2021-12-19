@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.kutnohorsko.oneFragment_kut">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Částečně zaniklá a přeměněná hornická (montánní, těžební) krajina Kutnohorska"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Krajina po staletí dominantně ovlivňovaná intenzivní těžbou stříbrných rud. Montánní krajina se od svého vzniku ve druhé polovině 13. století kontinuálně vyvíjela. Těžba trvale poznamenala především reliéf jádrového území, který je detailně rozčleněný těžebními tvary, jako jsou mohutné pásy hald vytěžené hlušiny a strusky, těžební jámy, pinky, propadliny a opuštěné kamenolomy. Nejintenzivnější těžba skončila již před staletími, v menší míře pokračovala hlubinná těžba polymetalických rud soustředěná v Rudných dolech na Kaňku do 80. let 20. století. Ještě za socialismu ve druhé polovině 20. století vzniklo pod Kaňkem rozsáhlé odkaliště, jehož těleso bylo později opakovaně rekultivované a zalesňované.\n\n
+
+Hornická těžební krajina Kutné Hory byla od středověku až do 19. století zcela odlesněná. Na těžebních tvarech včetně hald vyrostla spontánně sídelní zástavba Kutné Hory a Kaňku. Mnohé těžební tvary tím byly setřeny, překryty nebo zanikly zejména v samotném městě Kutná Hora. V podstatně řidší a prostorově mnohem menší zástavbě Kaňku se velmi dobře zachoval 1,5 km dlouhý pás mohutných hald na nejbohatším stříbronosném Staročeském pásmu.\n\n
+
+Odlesněná a zčásti zastavěná těžební krajina byla v minulých staletích využívána především zemědělsky. Až do 19. století převládala ve využití ploch orná půda (pole). Jenom na haldách nebo v detailně rozčleněném, těžební činností zprohýbaném reliéfu, byly chudé obecní pastviny nebo neplodná půda.\n\n
+
+Hlavní změny ve využívání krajiny nastaly od poloviny 19. století a pokračovaly po celé 20. století dodnes. Spočívaly v postupném zalesňování nejprve neplodných ploch na Kaňkovských vrších, v místech nejvíce poznamenaných těžbou. Postupně se lesní plochy rozšiřovaly i na méně úrodnou zemědělskou půdu. Kolem města tak vznikl nesouvislý prstenec zelených lesních ploch, které jsou zařazeny v kategorii lesů zvláštního určení a slouží především rekreačním a sportovním účelům. Ve 20. století dále ubývalo orné půdy, která se dnes již v jádrovém území prakticky nevyskytuje. Místo polí zaujaly ve 20. století postupně ovocné sady a také rozšiřující se městská zástavba. Rozsáhlé třešňové sady obsadily celý jižní svah Kaňkovských vrchů."/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

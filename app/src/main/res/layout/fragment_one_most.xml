@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.uzemiModel.mostecko.oneFragment_most">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/head2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Mostecko"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:justificationMode="inter_word"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Mostecko a celé Podkrušnohoří se za socialismu stalo symbolem krajiny totálně zdevastované a přeměněné povrchovou těžbou hnědého uhlí s nejhorším životním prostředím v České republice. Zanikly zde desítky obcí, které musely ustoupit těžbě uhlí, a vznikla úplně nová krajina povrchových dolů, výsypek, tepelných elektráren a těžkého průmyslu. Modelovým příkladem je i jádrové území tvořené katastry zaniklých sídel Souš, Třebušice a Holešice. Do poloviny 19. století to byly čistě zemědělské vesnice. Jejich obyvatelé obhospodařovali kromě polí také menší výměru vinic a chmelnic. V jejich okolí bylo několik menších rybníků a také velké Komořanské jezero, které bylo v 1. polovině 19. století vysušeno a přeměněno na zemědělskou půdu. V pánvi v té době již nebyly žádné lesy.\n\n
+
+Ve 2. polovině 19. století nastává velký rozvoj těžby uhlí, nejprve v hlubinných a v průběhu 20. století v otevřených povrchových dolech ohromných rozměrů. Rozmach těžby uhlí vedl nejprve k výraznému, až několikanásobnému zvýšení počtu obyvatel, a také ke změně jeho národnostního složení. Např. v Třebušicích, kde byly otevřeny velké doly Saxonia I (1879) a Saxonia II (1890), se zvýšil počet obyvatel v letech 1869-1910 více než šestinásobně a podíl Čechů stoupl v původně německé obci na více než 50%. V obci Souš se za stejné období zvýšil počet obyvatel více než desetkrát a Češi zde tvořili více než 80%. V roce 1887 byla v Souši zřízena první česká škola na Mostecku. Na katastru obce Holešice se těžilo od roku 1865 v šachtě Robert. Koncem 90. let 19. století přibyl ještě důl Robert II, z něhož se později stal povrchový lom přejmenovaný v roce 1946 na Důl Jan Šverma.\n\n
+
+Sídla Třebušice, Souš a Holešice a veškerá zemědělská krajina v jejich okolí musely ustoupit těžbě hnědého uhlí. Větší část obce Souš včetně původně gotického kostela sv. Martina byla zbourána v 60. letech 20. století a v roce 1971 bylo zbývající území připojeno k Mostu. Obec Holešice s raně gotickým kostelem sv. Mikuláše a kamenným mostem z 16. století byla z důvodu postupu těžby uhlí beze zbytku zlikvidována v letech 1978-1979. Třebušice byly zbořeny kvůli těžbě uhlí a při výstavbě ethylenovodu pro Chemické závody Litvínov v letech 1978-1980."/>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

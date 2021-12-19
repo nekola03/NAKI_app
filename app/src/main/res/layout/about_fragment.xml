@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment"
+    android:background="@color/ActionBarTitleColor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="70dp"
+                android:text="O APLIKACI"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Aplikace Zmizelé krajiny Česka zpřístupňuje vybrané výstupy projektu Ministerstva kultury NAKI II: Dědictví zaniklých krajin: identifikace, rekonstrukce a zpřístupnění. Projekt je řešen Geografickou sekcí Přírodovědecké fakulty Univerzity Karlovy."
+                android:textAlignment="center" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="310dp"
+                    android:layout_height="91dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="217dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginRight="92dp"
+                    android:src="@drawable/charles_university" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="91dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="66dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/obr_naki" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Cílem projektu je identifikovat, dokumentovat, rekonstruovat a zpřístupnit dědictví krajin zaniklých/zmizelých v období dynamických proměn společnosti na území Česka od konce 18. století. K rekonstrukci a dokumentaci proměn a dědictví různých typů zmizelých či zcela zaniklých krajin využívá projekt i aplikace historických pramenů a moderních geoinformačních technologií. "
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Mobilní aplikace a další výstupy projektu (například Digitální atlas zaniklých krajin Česka s informacemi a materiály k dalším zmizelým krajinám) jsou zpřístupněny prostřednictvím webového informačního systému:"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/odkaz"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="WWW.ZANIKLEKRAJINY.CZ"
+                android:textAlignment="center"
+                android:textColor="@color/head2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="55dp"
+                android:text="AUTOŘI PROJEKTU"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Lukáš Nekola"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Miroslav Čábelka"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="55dp"
+                android:text="PODĚKOVÁNÍ"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="25dp"
+                android:justificationMode="inter_word"
+                android:text="Příspěvek vznikl v rámci projektu DG18P02OVV008 „Dědictví zaniklých krajin: identifikace, rekonstrukce a zpřístupnění“ (www.zaniklekrajiny.cz), který je podpořen v rámci Programu na podporu aplikovaného výzkumu a vývoje národní a kulturní identity Ministerstva kultury (NAKI II.)."
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="711dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/dig_atlas_icon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:text="Digitální atlas zaniklých krajin"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="verze 1.0.0 (1)"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:text="Aplikaci Vám přináší"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/uk_about"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/charles_university" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:text="Autor aplikace"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Bc. Lukáš Nekola"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="272dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/white"
+                android:text="Webové stránky"
+                android:textSize="8dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/odkaz"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+   -->
+</RelativeLayout>
